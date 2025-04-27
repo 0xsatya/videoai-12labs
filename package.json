@@ -1,0 +1,30 @@
+{
+  "name": "videoai-12labs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "node ./src/downloadVideos.js",
+    "index": "node ./src/uploadAndIndex.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xsatya/videoai-12labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xsatya/videoai-12labs/issues"
+  },
+  "homepage": "https://github.com/0xsatya/videoai-12labs#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "fs-extra": "^11.3.0",
+    "node-fetch": "^3.3.2",
+    "twelvelabs-js": "^0.4.9"
+  }
+}
